@@ -1,0 +1,108 @@
+develop an app with the following requirements 
+Name — Olatunbosun Agro Stock Manager 
+
+Prompt:
+
+You are a senior full-stack software architect and security engineer.
+
+Design and generate a production-ready web application for managing stock and sales for an agricultural trading company.
+
+Business Description
+
+The company accepts agricultural goods and products from multiple external agricultural companies or suppliers, stores them in warehouses, manages inventory, and sells them through store managers and store keepers.
+
+The system must track:
+
+ Incoming goods (receiving and verification)
+ Stored inventory
+ Outgoing goods (sales and dispatch)
+ Sales transactions
+ User activities
+ Auditing and reporting
+ High-level security and access control
+
+
+
+User Roles
+
+Implement role-based access control with the following roles:
+
+1. Admin
+
+    Manage users and permissions
+    View all reports and audit logs
+    Configure system settings
+2. Store Manager
+
+    Approve incoming goods
+    View stock levels and sales reports
+    Authorize stock adjustments
+3. Store Keeper
+
+    Record incoming goods
+    Update stock movement
+    Process sales
+4. Auditor (optional)
+
+    View immutable logs and reports only
+
+Core Features
+
+Inventory Management
+
+ Register suppliers and products
+ Record incoming goods (quantity, weight, batch number, expiry, supplier, date)
+ Automatic stock updates
+ Track stock by warehouse/location
+ Low stock alerts
+
+Sales Management
+
+ Record sales transactions
+ Deduct sold quantities automatically
+ Track customer info
+ Generate invoices/receipts
+
+Audit & Reporting
+
+ Immutable audit logs of all actions
+ Daily, weekly, monthly sales summaries
+ Stock movement reports
+ Profit and loss summary
+ Export reports to PDF/Excel
+
+Security
+
+ Authentication (JWT / OAuth)
+ Role-based authorization
+ Activity logging
+ Data encryption (passwords, sensitive fields)
+ Input validation and protection against SQL injection, XSS, CSRF
+ Backup and disaster recovery strategy
+
+
+
+Technical Requirements
+
+ Backend: (suggest Node.js + Express / Django / Spring Boot — recommend best option)
+ Database: PostgreSQL or MySQL
+ Frontend: React or Vue
+ API: REST or GraphQL
+ Authentication: JWT + refresh tokens
+ Logging: Centralized audit logs
+ Deployment: Docker ready
+
+
+
+Deliverables
+
+1. System architecture diagram
+2. Database schema (tables and relationships)
+3. API endpoints
+4. Authentication & authorization flow
+5. Sample UI layout
+6. Core backend code scaffolding
+7. Security checklist
+8. Instructions for running locally
+
+

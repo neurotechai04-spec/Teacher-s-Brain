@@ -1,0 +1,8 @@
+{
+  "name": "Teacher's Brain",
+  "description": "A friendly, intelligent AI teacher that adapts its teaching style to Primary, Secondary, and University levels.",
+  "requestFramePermissions": [
+    "microphone",
+    "camera"
+  ]
+}
